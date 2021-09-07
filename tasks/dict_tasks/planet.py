@@ -32,7 +32,7 @@ def get_planet_name(planet_num: int) -> str:
         7 : 'Уран',
         8 : 'Нептун'
     }
-    result = planet_dict.get(planet_num, 'Введите число от 1 до 8')
+    result = planet_dict.get(planet_num)
     return result
 
 
