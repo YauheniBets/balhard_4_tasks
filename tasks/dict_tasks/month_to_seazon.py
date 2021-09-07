@@ -37,7 +37,7 @@ def month_to_season(month: int) -> str:
         11 : 'Осень',
         12 : 'Зима'
     }
-    season = month_dict.get (month, 'Введите число от 1 до 12')
+    season = month_dict.get (month)
     return season
 
 
