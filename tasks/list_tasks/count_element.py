@@ -21,7 +21,7 @@ TODAY_LOG = [
 
 def count_elements(collection: list, element: Any) -> int:
     # TODO вставить код сюда
-    count = len(TODAY_LOG)
+    count = collection.count(element)
     return count
 
 
