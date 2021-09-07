@@ -18,7 +18,7 @@ new_workers = [
 
 
 def list_extend(first_list: list, second_list: list) -> list:
-    first_list = user_list.extend(new_workers)
+    first_list.extend(second_list)
     return first_list
 
 
