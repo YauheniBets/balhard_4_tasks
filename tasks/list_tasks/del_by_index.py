@@ -8,7 +8,7 @@ shopping_list = ["молоко", "сметана", "сыр"]
 
 
 def del_by_num(collection: list, num: int) -> list:
-    collection = collection.clear()
+    del collection[:]
     return collection
 
 
