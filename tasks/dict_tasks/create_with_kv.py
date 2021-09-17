@@ -25,7 +25,8 @@ users = {}
 
 
 def save_user(users_list: dict, user_data: dict) -> dict:
-    # TODO вставить код сюда
+    login = user_data.pop('login')
+    users_list[login] = user_data  # Догнал как решить только пересмотрев видео номер 4 =)
     return users_list
 
 
